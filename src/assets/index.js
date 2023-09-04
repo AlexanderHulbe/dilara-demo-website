@@ -1,4 +1,8 @@
-import logo from "./logo.svg";
+import logo from "./logo.png";
+import link from "./link.png";
+import spotify from "./spotify.jfif";
+import Amsterdam_Fashion_Week from "./Amsterdam_Fashion_Week.jpg";
+import podcast from "./podcast.jfif";
 import backend from "./backend.png";
 import creator from "./creator.png";
 import mobile from "./mobile.png";
@@ -32,6 +36,10 @@ import tripguide from "./tripguide.png";
 
 export {
   logo,
+  link,
+  spotify,
+  Amsterdam_Fashion_Week,
+  podcast,
   backend,
   creator,
   mobile,

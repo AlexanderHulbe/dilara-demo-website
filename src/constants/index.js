@@ -1,5 +1,7 @@
 import {
   mobile,
+  Amsterdam_Fashion_Week,
+  podcast,
   backend,
   creator,
   web,
@@ -23,6 +25,7 @@ import {
   jobit,
   tripguide,
   threejs,
+  spotify,
 } from "../assets";
 
 export const navLinks = [
@@ -31,8 +34,8 @@ export const navLinks = [
     title: "About",
   },
   {
-    id: "work",
-    title: "Work",
+    id: "projects",
+    title: "Projects",
   },
   {
     id: "contact",
@@ -42,19 +45,23 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Web Developer",
+    title: "Twitch",
+    link: "https://www.twitch.tv/di1araas",
     icon: web,
   },
   {
-    title: "React Native Developer",
+    title: "Tiktok",
+    link: "tiktok.com/@di1araa.s",
     icon: mobile,
   },
   {
-    title: "Backend Developer",
+    title: "Instagram",
+    link: "instagram.com/dilaraa.s",
     icon: backend,
   },
   {
-    title: "Content Creator",
+    title: "Youtube",
+    link: "https://www.youtube.com/@Di1araa.s",
     icon: creator,
   },
 ];
@@ -198,67 +205,43 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Spotify Event",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Spotify Event in Netherlands",
     tags: [
       {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "mongodb",
+        name: "spotify",
         color: "green-text-gradient",
-      },
-      {
-        name: "tailwind",
-        color: "pink-text-gradient",
-      },
+      }
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: spotify,
+    source_code_link: "https://spotify.com/",
   },
   {
-    name: "Job IT",
+    name: "Amsterdam Fashion Week",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "Amsterdam Fashion Week",
     tags: [
       {
-        name: "react",
+        name: "fashion",
         color: "blue-text-gradient",
-      },
-      {
-        name: "restapi",
-        color: "green-text-gradient",
-      },
-      {
-        name: "scss",
-        color: "pink-text-gradient",
-      },
+      }
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: Amsterdam_Fashion_Week,
+    source_code_link: "https://amsterdamfashionweek.nl/",
   },
   {
-    name: "Trip Guide",
+    name: "The never ending Podcast",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "Der Podcast von stegi & dilara, es kommen noch neue folge aber das kann noch dauern.",
     tags: [
       {
-        name: "nextjs",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "supabase",
+        name: "spotify",
         color: "green-text-gradient",
-      },
-      {
-        name: "css",
-        color: "pink-text-gradient",
-      },
+      }
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: podcast,
+    source_code_link: "https://open.spotify.com/show/6TO4xct99QnisHKnKy31ID",
   },
 ];
 
