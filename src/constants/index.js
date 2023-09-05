@@ -26,6 +26,10 @@ import {
   tripguide,
   threejs,
   spotify,
+  tiktok,
+  twitch,
+  instagram,
+  youtube,
 } from "../assets";
 
 export const navLinks = [
@@ -47,22 +51,22 @@ const services = [
   {
     title: "Twitch",
     link: "https://www.twitch.tv/di1araas",
-    icon: web,
+    icon: twitch,
   },
   {
     title: "Tiktok",
     link: "tiktok.com/@di1araa.s",
-    icon: mobile,
+    icon: tiktok,
   },
   {
     title: "Instagram",
     link: "instagram.com/dilaraa.s",
-    icon: backend,
+    icon: instagram,
   },
   {
     title: "Youtube",
     link: "https://www.youtube.com/@Di1araa.s",
-    icon: creator,
+    icon: youtube,
   },
 ];
 

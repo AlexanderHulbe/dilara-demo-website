@@ -25,6 +25,7 @@ const ServiceCard = ({ index, title, icon, link }) => (
         >
           <img
             src={icon}
+            width={"100%"}
             alt='web-development'
             className='w-16 h-16 object-contain'
           />
