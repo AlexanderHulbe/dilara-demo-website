@@ -44,7 +44,7 @@ const Navbar = () => {
         >
           <img src={logo} alt='logo' className='w-9 h-9 object-contain' />
           <p className={`${scrolled ? "text-white" : "text-[#000000]"}  text-[18px] font-bold cursor-pointer flex `}>
-            Dialra &nbsp;
+            Dilara &nbsp;
             <span className='sm:block hidden'> | The green haired Girl</span>
           </p>
         </Link>
