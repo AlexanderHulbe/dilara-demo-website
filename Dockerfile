@@ -1,18 +1,19 @@
-FROM node:18-alpine
-WORKDIR /frontend
-
-COPY package.json yarn.lock* package-lock.json* pnpm-lock.yaml* ./
-RUN npm i --legacy-peer-deps
-
-COPY . ./
-
+FROM node:18-alpine3.17 as build
+WORKDIR /app
+COPY . /app
+RUN npm install --legacy-peer-deps
 RUN npm run build
 
-EXPOSE 5173
+FROM ubuntu
+RUN apt-get update
+RUN apt-get install apache2 -y
+RUN apt-get install apache2-utils  -y
+RUN apt-get clean
 
-ENV PORT 5173
+COPY --from=build /app/dist /var/www/html/
 
 ENV NODE_ENV=production
 
+EXPOSE 80
 
-ENTRYPOINT npm run dev
+CMD ["apache2ctl", "-D", "FOREGROUND"]
