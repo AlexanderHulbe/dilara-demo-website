@@ -1,10 +1,14 @@
 import { BrowserRouter } from "react-router-dom";
 
-import { About, Contact, Experience, Feedbacks, Hero, Navbar, Tech, Works, StarsCanvas } from "./components";
+import { About, Contact, Hero, Navbar, Works, StarsCanvas } from "./components";
+import Information from './Banner';
+import Imprint from "./components/Imprint";
 
 const App = () => {
+
   return (
     <BrowserRouter>
+      <Information />
       <div className='relative z-0 bg-primary'>
         <div className='bg-hero-pattern bg-cover bg-no-repeat bg-center'>
           <Navbar />
@@ -18,14 +22,12 @@ const App = () => {
             frameborder="0" /> */}
         </div>
         <About />
-        {/* <Experience /> */}
-        {/* <Tech /> // TODO Change to Cooperations */}
         <Works />
-        {/* <Feedbacks /> */}
         <div className='relative z-0'>
           <Contact />
           <StarsCanvas />
         </div>
+        <Imprint/>
       </div>
     </BrowserRouter>
   );
