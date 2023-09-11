@@ -25,7 +25,7 @@ function Information() {
                     Important Information
                 </h1>
                 <p style={{ color: 'black', marginBottom: '1rem', }}>
-                    This Site is hosted by a Solo Dev and NOT by Dilara herself.<br/>
+                    This Site is hosted by ALHU Media and NOT by Dilara herself.<br/>
                     It is ment to be a Demo for her.
                 </p>
                 <button
