@@ -35,12 +35,12 @@ const services = [
   },
   {
     title: "Tiktok",
-    link: "tiktok.com/@di1araa.s",
+    link: "https://tiktok.com/@di1araa.s",
     icon: tiktok,
   },
   {
     title: "Instagram",
-    link: "instagram.com/dilaraa.s",
+    link: "https://instagram.com/dilaraa.s",
     icon: instagram,
   },
   {
